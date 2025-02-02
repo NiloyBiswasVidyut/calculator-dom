@@ -23,6 +23,7 @@ body{
 }
 .container h1{
     padding-bottom: 3rem;
+    text-align: center;
 }
 .container input{
     height: 2rem;
