@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategray;
+}
+.hero{
+
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0px;
+    border: 1px solid grey;
+    border-radius: 9px;
+    position: relative;
+    top: 25vh;
+    left: 25vw;
+}
+.container h1{
+    padding-bottom: 3rem;
+}
+.container input{
+    height: 2rem;
+}
+
+.container button{
+    padding: 5px 6px;
+    color: darkslategray;
+    background-color: white;
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+    transition: 200ms;
+}
+.container button:hover{
+    color: white;
+    background-color: darkslategray;
+    transition: 200ms;
+}
+.dispOut{
+padding-top: 2rem;
+}
